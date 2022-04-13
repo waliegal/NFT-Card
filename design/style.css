@@ -30,13 +30,33 @@ body {
     margin: 0 auto;
 }
 
-.equal {
+.equal, .desc , .eth, .logo{
     position: relative;
     margin: 0 auto;
     width: 310px;
-    height: 85px;
+    height: 35px;
     border: solid 1px white;
     top: 50px;
     color: white;
     font-size: x-large;
+    font-family: "outfit";
+}
+
+.desc {
+    top: 70px;
+    font-size: 14px;
+    color: lightblue;
+}
+
+.eth {  
+    position: relative;
+    top: 90px;
+    color: hsl(178, 100%, 50%);
+    font-size: small;
+}
+
+.logo{
+    position: relative;
+    top: 100px;
+    font-size: small;
 }
