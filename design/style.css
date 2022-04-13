@@ -7,14 +7,14 @@ body {
     position: relative;
     background-color: hsl(216, 50%, 16%);
     height: 550px;
-    width: 350px;
+    width: 320px;
     margin: 0 auto;
     top: 100px;
     border-radius: 15px;
 }
 
 .img {
-    width: 310px;
+    width: 290px;
     height: 285px;
     border-radius: 15px;
     margin: 0 auto;
@@ -24,7 +24,7 @@ body {
 
 .imgx {
     position: relative;
-    width: 310px;
+    width: 290px;
     height: 285px;
     border-radius: 15px;
     margin: 0 auto;
@@ -33,12 +33,11 @@ body {
 .equal, .desc , .eth, .logo {
     position: relative;
     margin: 0 auto;
-    width: 310px;
+    width: 290px;
     height: 35px;
-    top: 50px;
-    border: 1px solid wheat;
+    top: 45px;
     color: white;
-    font-size: x-large;
+    font-size: 24px;
     font-family: "outfit";
 }
 
@@ -46,6 +45,7 @@ body {
     top: 70px;
     font-size: 14px;
     color: lightblue;
+    top: 57px;
 }
 
 .eth {  
@@ -61,8 +61,8 @@ body {
 }
 
 .line {
-    border-top: solid .2px white;
-    width: 310px;
+    border-top: solid hsl(215, 32%, 27%) .1px;
+    width: 290px;
     margin: 0 auto;
     position: relative;
     top: 45px;
@@ -77,10 +77,25 @@ body {
 .avatar {
     height: 30px;
     width: 30px;
+    border: white solid;
+    border-radius: 100%;
 }
 span {
     position: relative;
     padding: 5px;
     margin-top: 10px;
     top: -3px;
+}
+
+.creation {
+    color: lightblue;
+    position: relative;
+    top: -10px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+strong {
+    top: -10px;
+    position: relative;
 }
