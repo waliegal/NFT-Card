@@ -30,13 +30,13 @@ body {
     margin: 0 auto;
 }
 
-.equal, .desc , .eth, .logo{
+.equal, .desc , .eth, .logo {
     position: relative;
     margin: 0 auto;
     width: 310px;
     height: 35px;
-    border: solid 1px white;
     top: 50px;
+    border: 1px solid wheat;
     color: white;
     font-size: x-large;
     font-family: "outfit";
@@ -50,13 +50,37 @@ body {
 
 .eth {  
     position: relative;
-    top: 90px;
+    top: 95px;
     color: hsl(178, 100%, 50%);
     font-size: small;
+}
+.days {
+    position: relative;
+    float: right;
+    color: lightblue;
+}
+
+.line {
+    border-top: solid .2px white;
+    width: 310px;
+    margin: 0 auto;
+    position: relative;
+    top: 45px;
 }
 
 .logo{
     position: relative;
     top: 100px;
     font-size: small;
+}
+
+.avatar {
+    height: 30px;
+    width: 30px;
+}
+span {
+    position: relative;
+    padding: 5px;
+    margin-top: 10px;
+    top: -3px;
 }
