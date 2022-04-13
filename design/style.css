@@ -6,8 +6,8 @@ body {
 .card {
     position: relative;
     background-color: hsl(216, 50%, 16%);
-    height: 500px;
-    width: 500px;
+    height: 550px;
+    width: 400px;
     margin: 0 auto;
     top: 100px;
     border-radius: 15px;
