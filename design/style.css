@@ -14,9 +14,8 @@ body {
 }
 
 .img {
-    width: 300px;
+    width: 310px;
     height: 285px;
-    border: 1px solid black;
     border-radius: 15px;
     margin: 0 auto;
     top: 22px;
@@ -25,8 +24,19 @@ body {
 
 .imgx {
     position: relative;
-    width: 300px;
+    width: 310px;
     height: 285px;
     border-radius: 15px;
     margin: 0 auto;
+}
+
+.equal {
+    position: relative;
+    margin: 0 auto;
+    width: 310px;
+    height: 85px;
+    border: solid 1px white;
+    top: 50px;
+    color: white;
+    font-size: x-large;
 }
