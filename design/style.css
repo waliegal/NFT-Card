@@ -2,3 +2,13 @@ body {
     box-sizing: border-box;
     background-color:  hsl(217, 54%, 11%);
 }
+
+.card {
+    position: relative;
+    background-color: hsl(216, 50%, 16%);
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    top: 100px;
+    border-radius: 15px;
+}
